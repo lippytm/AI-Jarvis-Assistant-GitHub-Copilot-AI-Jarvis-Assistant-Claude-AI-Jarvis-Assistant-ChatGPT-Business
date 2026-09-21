@@ -1,0 +1,46 @@
+name: validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  repository-contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate JSON files
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          files = list(Path("config").rglob("*.json")) + list(Path("schemas").rglob("*.json"))
+          if not files:
+              raise SystemExit("No JSON contracts found")
+          for path in files:
+              with path.open(encoding="utf-8") as handle:
+                  json.load(handle)
+              print(f"validated {path}")
+          PY
+      - name: Reject obvious committed secrets
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          banned = ("BEGIN PRIVATE KEY", "AKIA", "sk-proj-")
+          ignored = {".git"}
+          for path in Path(".").rglob("*"):
+              if not path.is_file() or any(part in ignored for part in path.parts):
+                  continue
+              try:
+                  text = path.read_text(encoding="utf-8")
+              except UnicodeDecodeError:
+                  continue
+              for token in banned:
+                  if token in text:
+                      raise SystemExit(f"possible secret token in {path}")
+          print("basic secret scan passed")
+          PY
