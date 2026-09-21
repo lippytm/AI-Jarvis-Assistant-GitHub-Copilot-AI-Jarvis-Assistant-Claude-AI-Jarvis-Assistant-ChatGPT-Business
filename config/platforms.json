@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.1.0",
+  "owner_authority": "Charles Earl Lipshay or a specifically authorized human delegate",
+  "platforms": [
+    {
+      "id": "github",
+      "roles": ["source_control", "issues", "pull_requests", "automation", "audit"],
+      "writes_require": ["scoped_repository_permission", "branch_or_pull_request", "validation"]
+    },
+    {
+      "id": "chatgpt",
+      "roles": ["planning", "drafting", "analysis", "artifact_creation", "qa"],
+      "writes_require": ["explicit_task_scope", "owner_review_for_external_effects"]
+    },
+    {
+      "id": "claude",
+      "roles": ["independent_review", "drafting", "code_review", "handoff"],
+      "writes_require": ["explicit_task_scope", "provenance_preservation"]
+    },
+    {
+      "id": "gemini",
+      "roles": ["independent_review", "research", "notebook_handoff", "multimodal_analysis"],
+      "writes_require": ["explicit_task_scope", "provenance_preservation"]
+    },
+    {
+      "id": "hostinger",
+      "roles": ["website_staging", "content_delivery", "approved_deployment"],
+      "writes_require": ["staging_first", "rollback_plan", "owner_approval"]
+    }
+  ],
+  "prohibited_autonomous_actions": [
+    "sign_contract",
+    "file_legal_document",
+    "transfer_real_money",
+    "place_live_trade",
+    "borrow_or_open_credit",
+    "publish_private_data",
+    "change_asset_ownership",
+    "disable_safety_gate",
+    "deploy_unsafe_robotics"
+  ]
+}
