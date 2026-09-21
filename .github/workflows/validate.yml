@@ -30,7 +30,7 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          banned = ("BEGIN PRIVATE KEY", "AKIA", "sk-proj-")
+          banned = ("BEGIN " + "PRIVATE KEY", "AK" + "IA", "sk-" + "proj-")
           ignored = {".git"}
           for path in Path(".").rglob("*"):
               if not path.is_file() or any(part in ignored for part in path.parts):
