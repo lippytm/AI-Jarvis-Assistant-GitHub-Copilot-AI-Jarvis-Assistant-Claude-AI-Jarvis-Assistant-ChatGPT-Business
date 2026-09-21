@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lippytm.ai/schemas/work-item.schema.json",
+  "title": "AI Jarvis Portable Work Item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "owner", "owning_entity", "status", "risk_level", "objective", "acceptance_tests", "provenance"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^JARVIS-[A-Z0-9-]+$"},
+    "title": {"type": "string", "minLength": 3},
+    "owner": {"type": "string", "const": "Charles Earl Lipshay"},
+    "owning_entity": {"type": "string", "minLength": 2},
+    "status": {"enum": ["draft", "blocked", "review", "approved", "complete"]},
+    "risk_level": {"enum": ["low", "medium", "high", "critical"]},
+    "objective": {"type": "string", "minLength": 10},
+    "platforms": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "repositories": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "dependencies": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "constraints": {"type": "array", "items": {"type": "string"}},
+    "acceptance_tests": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 3}},
+    "approvals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["role", "status"],
+        "properties": {
+          "role": {"type": "string"},
+          "status": {"enum": ["required", "approved", "rejected"]},
+          "evidence": {"type": "string"}
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["created_at", "source"],
+      "properties": {
+        "created_at": {"type": "string", "format": "date-time"},
+        "source": {"type": "string"},
+        "source_hash": {"type": "string"},
+        "parent_work_item": {"type": "string"}
+      }
+    }
+  }
+}
