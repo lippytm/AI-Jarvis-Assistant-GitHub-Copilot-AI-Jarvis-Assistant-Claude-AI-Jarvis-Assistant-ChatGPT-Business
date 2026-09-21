@@ -1,0 +1,618 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-09-21T16:00:00Z",
+  "source": "GitHub installation inventory",
+  "repository_count": 43,
+  "policy": {
+    "new_repository_default": "quarantine-read-only",
+    "discovery_is_not_authorization": true,
+    "financial_execution": "prohibited without transaction-specific owner approval",
+    "external_publish_deploy_merge": "approval-required",
+    "physical_robotics": "simulation-first and supervised",
+    "licensing": "preserve existing terms; Trust/LLC assignment and attorney review required before valuable proprietary IP"
+  },
+  "repositories": [
+    {
+      "repository": "lippytm/Transparency-Logic-Time-Machine-Bots-",
+      "role": "agent-surface",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/balletcrypto.github.io",
+      "role": "web3-research",
+      "risk": "restricted",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/Time-Machines-Builders-",
+      "role": "project-node",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/gatsby-starter-blog",
+      "role": "website-surface",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/AI-Time-Machines",
+      "role": "project-node",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/Web3AI",
+      "role": "web3-research",
+      "risk": "restricted",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/lippytm.ai",
+      "role": "website-surface",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/OpenClaw-lippytm.AI-",
+      "role": "governance-reference",
+      "risk": "restricted",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/Chatlippytm.ai.Bots",
+      "role": "agent-surface",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/AI-Full-Stack-AI-DevOps-Synthetic-Intelligence-Engines-AgentsBots-Web3-Websites-",
+      "role": "web3-research",
+      "risk": "restricted",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/AllBots.com",
+      "role": "agent-surface",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/Factory.ai",
+      "role": "agent-factory",
+      "risk": "high",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/AllBots.com.ai",
+      "role": "agent-surface",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/The-Encyclopedia-of-Everything-Applied-ChatAIBots",
+      "role": "agent-surface",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/lippytm-lippytm.ai-tower-control-ai",
+      "role": "control-plane",
+      "risk": "high",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/Evolutionary-Evolutions-Social-Multimedia-Networks-Agency-",
+      "role": "project-node",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/AI-Intergalactic-Zoological-Social-Multimedia-Agency-Networks-",
+      "role": "project-node",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/AI-Autonomous-Systems-for-all-of-my-lippytm.ai-Repositories-Research-and-Development-integration-",
+      "role": "website-surface",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/Clawlippytm.Bots",
+      "role": "governance-reference",
+      "risk": "restricted",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/Clawlippytm.ai.Bots",
+      "role": "governance-reference",
+      "risk": "restricted",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/Base44-",
+      "role": "project-node",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/ClawBase44.ai.Bots",
+      "role": "governance-reference",
+      "risk": "restricted",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/zenith-tasks",
+      "role": "project-node",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/superagent-app",
+      "role": "agent-surface",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/chronos-flow",
+      "role": "project-node",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/MyClaw.lippytm.AI-",
+      "role": "governance-reference",
+      "risk": "restricted",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/lippytmai.getbizfunds.com-",
+      "role": "finance-research",
+      "risk": "restricted",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/Quantum-Questions-of-the-Many-Worlds-Universes-of-Reruns-",
+      "role": "project-node",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/The-Encyclopedia-of-Law-Civilian-Law-Military-Law-Business-Law-AI-Law.-",
+      "role": "governance-reference",
+      "risk": "restricted",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/http-famous.ai-fpr-charles92",
+      "role": "website-surface",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/lippytmai.zo.computer-",
+      "role": "project-node",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/docs",
+      "role": "knowledge-base",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/Prompt-11-",
+      "role": "research-lab",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/Hermes-AI-Hermes",
+      "role": "project-node",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/AI-Clone-of-Charles-Earl-Lipshay-lippytm-lippytm.AI-lippytmai-",
+      "role": "identity-model",
+      "risk": "restricted",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/Gemini-NotebookLM-s-AI-Agnostic-Clone-Engine-Fabric-",
+      "role": "provider-adapter",
+      "risk": "high",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/Intergalactic-Corporate-Services-LLC-",
+      "role": "governance-reference",
+      "risk": "restricted",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/aievolutionaryevolutions.com-Hermes-Fabric-MemPalace-",
+      "role": "project-node",
+      "risk": "medium",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/AI-Jarvis-Assistant-ChatGPT-Gemini-AI-GitHub-Claude-and-all-of-my-Repositories-DOG-Dog-dog-",
+      "role": "provider-orchestration",
+      "risk": "high",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/Hostinger.com-with-my-AI-Jarvis-Assistant-ChatGPT-ChatGPT-Business-Gemini-AI-Claude",
+      "role": "deployment-adapter",
+      "risk": "high",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/Claude-with-AI-Jarvis-Assistant-CodeX-",
+      "role": "provider-adapter",
+      "risk": "high",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/AI-Jarvis-Assistant-AI-Copilot-for-Self-Healing-and-Self-Improvements-for-all-Repositories-",
+      "role": "repository-health",
+      "risk": "high",
+      "onboarding_status": "discovered",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    },
+    {
+      "repository": "lippytm/AI-Jarvis-Assistant-GitHub-Copilot-AI-Jarvis-Assistant-Claude-AI-Jarvis-Assistant-ChatGPT-Business",
+      "role": "integration-hub",
+      "risk": "high",
+      "onboarding_status": "foundation-pr-open",
+      "default_mode": "read-only-inventory",
+      "writes": "pull-request-only",
+      "promotion_requires": [
+        "owner approval",
+        "passing checks",
+        "rollback plan",
+        "no committed secrets"
+      ]
+    }
+  ]
+}
